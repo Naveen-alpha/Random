@@ -1,0 +1,115 @@
+Your BSQ QuickPay Payment Receipt
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>BSQ-Receipt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <style type="text/css">
+        @media only screen and (max-width: 1000px) {
+
+            table,
+            td,
+            p,
+            a,
+            li {
+                -webkit-text-size-adjust: none !important;
+            }
+
+            table {
+                width: 100% !important;
+            }
+
+            .responsive-image img {
+                height: auto !important;
+                max-width: auto !important;
+                width: auto !important;
+            }
+        }
+        
+        
+    </style>
+    <link
+        href='https://fonts.googleapis.com/css?family=Po:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Fauna+One&subset=latin,latin-ext' rel='stylesheet'
+        type='text/css' />
+    <div style="background:#f7f7f7 !important; padding:0px; margin:0px;">
+        <table border="0" cellpadding="0" cellspacing="0" align="center" width="500" style="background-color: white;">
+            <tr style="padding: 10px;">
+                <td style="padding:20px 20px" bgcolor="#ffffff" class="responsive-image" colspan="2">
+                    <div style="text-align: center;">
+                    <h3 class="Merc-name text-center">${arg6}</h3>
+                    <p class="merc-address text-center">${arg7}<br>${arg8},${arg9} ${arg11}</p>
+                    <h5 class="merc-number text-center">${arg0}</h5>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td  style="padding: 10px;">
+                    <div class="rcpt-detail">
+                        <div class="trans-id">
+                            <div class="trans-one">
+
+                        <h5 class="tr-id">Trans ID </h5>
+                        <h5 class="tr-id">${arg2}</h5>
+                        <h5 class="date-time">${arg4}</h5>
+                    </div>
+                    </div>
+                    </div>
+                </td>
+                <td  style="padding: 10px;">
+                    <div style="float: right;">
+                        <h5 class="cus-name text-right">Name:  ${arg1}</h5>
+                        <h5 class="rcpt-serv text-right"> Service: Takeaway</h5>	
+                        <h5 class="cus-name text-right">Payment Method : ${arg5}</h5>	
+                    </div>
+                </td>
+            </tr>
+            <tr style="border-top:1px solid;">
+                <th style="padding: 10px;">Description</th>
+                <th style="padding: 10px;" class="text-right">Cost</th>
+            </tr>
+            <tr style="border-top:1px solid;">
+                <td style="padding: 10px;"><pre><code>Item 1
+                    Item 2
+                    Item 3
+                </code></pre> 
+                </td>
+                <td class="text-right ver-top" style="padding: 10px;">$ ${arg3}</td>
+            </tr>
+            <tr>
+                <td style="padding:20px 20px" bgcolor="#ffffff" class="responsive-image" colspan="2">
+                    <div style="text-align: center;">
+                        <td>Net Total</td>
+                        <td>$ ${arg3}</td>
+                   
+                        <td>Tax</td>
+                        <td>$ 0.00</td>
+                   
+                        <td>Tip Amount</td>
+                        <td>$ 0.00</td>
+                </div>
+                </td>
+                
+            </tr>
+                
+                    <tr>
+                       
+                    </tr>
+        </table>
+        <div>
+</body>
+
+</html>

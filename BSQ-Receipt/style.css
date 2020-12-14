@@ -1,0 +1,80 @@
+body{
+font-family: 'Poppins', sans-serif;
+}
+.trans-one {
+    display: inline-block;
+}
+.order-details {
+    border-bottom: dashed 1.5px #d6d6d6;
+    padding-bottom: 10px;
+}
+table.order-desc {
+    width: 100%;
+}
+table.order-desc tr th {
+    font-family: 'montserrat',sans-serif;
+    padding-bottom: 10px;
+}
+table.order-desc tr td, table.total-desc tr td {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #565656;
+    padding: 5px 0px;
+}
+table.total-desc {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+}
+.order-desc{
+	border-bottom: dashed 2px #d6d6d6;
+}
+h5.tr-id, h5.date-time, h5.rcpt-serv, h5.cus-name {
+    font-family: 'poppins',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6b6b6b;
+}
+.rcpt-head {
+    padding-bottom: 15px;
+}
+h3.Merc-name.text-center {
+    font-family: 'montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+p.merc-address.text-center {
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    padding: 7px 0px;
+    margin: 0;
+}
+h5.merc-number.text-center {
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.cost-total {
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+table.paid-tab {
+    text-align: right;
+    width: 100%;
+    margin: 10px 0px;
+}
+table.paid-tab tr td {
+    padding-bottom: 7px;
+}
+
+pre {
+    text-align: left;
+    white-space: pre-line;border: none !important;padding: 0 !important;background-color: unset !important;
+}
+pre code{white-space: pre-line !important;}
+.ver-top{vertical-align: top;}
